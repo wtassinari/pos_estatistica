@@ -4,16 +4,15 @@ author: "DEMAT/ICE/UFRRJ"
 # date: "`r Sys.Date()`"
 output:
   prettydoc::html_pretty:
-    theme: hpstr
+    theme: leonids
     highlight: github
     toc: true
     toc_depth: 2
-header-includes:
-- \usepackage{titling}
-- \pretitle{\begin{center}
-  \includegraphics[width=2in,height=2in]{logorural.jpg}\LARGE\\}
-- \posttitle{\end{center}}
 ---
+
+```{r echo=F, fig.align="center", message=FALSE, warning=FALSE, comments=NA, out.width="90%", comment=NA}
+knitr::include_graphics('rural.jpg')
+```
 
 ## Objetivo do Curso
 
@@ -21,6 +20,12 @@ header-includes:
 package is a new output format for creating HTML documents from R Markdown files.
 `html_pretty` is more lightweight compared to `html_document`, and is more
 stylish than `html_vignette` when creating package vignettes.
+
+## Coordenação
+
+- **Coordenação:** Profa. Adriana Oliveira
+
+- **Coordenador Substituto:** Prof. Felipe
 
 ## Docentes
 
