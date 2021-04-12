@@ -14,67 +14,77 @@ output:
 knitr::include_graphics('rural.jpg')
 ```
 
-## Objetivo do Curso
+## MISSÃO
 
-`html_pretty` in the [**prettydoc**](https://github.com/yixuan/prettydoc/)
-package is a new output format for creating HTML documents from R Markdown files.
-`html_pretty` is more lightweight compared to `html_document`, and is more
-stylish than `html_vignette` when creating package vignettes.
+  Diante da diversidade de áreas que apresenta nossa Instituição, acreditamos que o Curso de Especialização em  Estatística  Aplicada, vem acrescentar e completar lacunas existentes no desenvolvimento das pesquisas realizadas na Universidade. A  Estatística é ferramenta indispensáveis para o desenvolvimento e enriquecimentos de outras áreas como  agrárias, biológica, saúde, ciências sociais, administração e economia além, é claro, do desenvolvimento da própria área.  
 
-## Coordenação
+  Consideramos que um curso de Especialização em Estatística  Aplicada  se justifica ao buscar a solidificação dos conhecimentos e propiciar ao graduado condições para  a realização de estudos mais avançados.
 
-- **Coordenação:** Profa. Adriana Oliveira
+  Entendemos que a Estatística não deve ser entendida como um conjunto de regras e receitas válidas por decreto, nem tampouco um sistema dedutivo formal vazio de significado. Desta forma, no bojo da concepção do curso está a intenção clara de colocar a estatística bem próxima da realidade e das aplicações, entretanto, formalizando sua organização com definições, exemplos e demonstrações.
+         
+  A Especialização em Estatística Aplicada tem como objetivo contribuir com o desenvolvimento científico brasileiro, formando recursos humanos (especialistas) de alto nível, habilitados para atuarem nas linhas de fronteira entre as ciências exatas, as ciências biológicas, ciências humanas, ciências agrárias em geral e demais áreas, com capacidade para a aplicação, desenvolvimento, crítica e difusão das metodologias estatísticas necessárias para o entendimento, solução de problemas e apoio à tomada de decisão em tais áreas.  Profissionais com este perfil multidisciplinar são imprescindíveis nas instituições de ensino e pesquisa, agências reguladoras, laboratórios, indústrias, no campo e  outros, que lançam mão de grande quantidade de informações (dados reais) e necessitam de processamento adequado. Neste contexto, a proposta é única, inovadora e desafiadora, tanto na Universidade Federal Rural do Rio de Janeiro como no Estado do Rio de Janeiro.
+  
+  Quando focamos nosso olhar para a formação dos nossos alunos do curso de Matemática, observamos lacunas no conhecimento das técnicas  estatísticas,  que proporcionariam, a este profissional, condições para a identificação, aplicação e análises de dados mais aprimoradas. Sendo assim, esta Especialização poderá preencher tais lacunas, deixadas na graduação, proporcionando ao graduado em Matemática condições  e ferramentas para desenvolver pesquisas, além de solidificar seus conhecimentos para o seu desempenho em sala de aula.
 
-- **Coordenador Substituto:** Prof. Felipe
+  Aos alunos graduados em outras áreas, acreditamos que teremos uma profunda interdisciplinaridade, propiciando aos estudantes condições de desenvolver pesquisas em suas áreas usando, com propriedade, as ferramentas disponíveis na Estatística.  
+        
+  A incorporação do instrumental estatístico e sua aplicação a ramos específicos de outras ciências leva  a criação de novas áreas de estudos e de conhecimento humano. A análise de eventos biológicos, com base em métodos estatísticos, gera a Demografia, a Bioestatística, a Biometria e a Atuária.  A aplicação da Estatística na Economia leva à Econometria. Sua utilização na Física produz a Mecânica Estatística.   A aplicação em Geologia leva à Geoestatística. Nas engenharias e indústrias  a aplicação de suas técnicas  serve para avaliação da qualidade dos produtos, gerando o controle estatístico de processos ( ou qualidade).
+         
+  Programado com um elenco de disciplinas básicas e avançadas  e com abordagem rigorosa, o curso pretende propiciar condições para que o Especialista venha atuar não só no ensino, mas também se inicie no campo das pesquisas e no mercado de trabalho envolvendo as áreas mencionadas, continuando e enriquecendo sua formação profissional.
 
-## Docentes
+## OBJETIVOS GERAIS E ESPECÍFICOS
 
-`html_pretty` currently supports three page themes (`cayman`, `tactile` and
-`architect`), and two syntax highlight styles (`github` and `vignette`).
-The theme and highlight styles can be specified in the document metadata,
-for example:
+###  OBJETIVOS GERAIS 
+        
+  Ao final do curso, os alunos estarão preparados para: selecionar planos de experiências destinados a responder a questões de áreas diversas; selecionar e aplicar técnicas estatísticas para tratar, analisar e modelar os tipos de dados que surgem nestas áreas; usar variado software de análise estatística e tratamento de dados e interpretar os seus resultados; ter uma  comunicação eficaz com os estatísticos e profissionais das áreas de interesse.
 
-```yaml
-output:
-  prettydoc::html_pretty:
-    theme: architect
-    highlight: github
-```
+### OBJETIVOS ESPECÍFICOS
+      
+- Integração da análise estatística com as áreas Exatas, das Agrárias, Biológicas e Saúde, Ciências Sociais, Administração, Economia,  Educação  e outras.
 
-## Grade Curricular
+- Fornecer o conhecimento básico para a análise estatística utilizando softwares específicos em estatística.
 
-Feel free to use the `knitr` infrastructure with dozens of tunable options in
-your document.
+## COORDENAÇÃO
 
-```{r fig.width=6, fig.height=6, fig.align='center'}
-set.seed(123)
-n <- 1000
-x1  <- matrix(rnorm(n), ncol = 2)
-x2  <- matrix(rnorm(n, mean = 3, sd = 1.5), ncol = 2)
-x   <- rbind(x1, x2)
-head(x)
-smoothScatter(x, xlab = "x1", ylab = "x2")
-```
+- **Coordenação:** Prof. Felipe Leite [link lattes](http://lattes.cnpq.br/9601624302826678)
 
-You can include code snippets of languages other than R, but note that
-the block header has no curly brackets around the language name.
+- **Coordenador Substituto:** 
 
-```cpp
-// [[Rcpp::export]]
-NumericVector timesTwo(NumericVector x) {
-    return x * 2;
-}
-```
+## DOCENTES
 
-You can also write math expressions, e.g. $Y = X\beta + \epsilon$,
-footnotes^[A footnote here.], and tables, e.g. using `knitr::kable()`.
+- Profª Adriana Oliveira Andrade
 
-```{r, echo=FALSE, results='asis'}
-knitr::kable(head(iris, 10))
-```
+- Profª Alba Regina Moretti
 
-## Projetos
+- Prof. Antônio Carlos Gonçalves
 
-Please visit the [development page](https://github.com/yixuan/prettydoc/) of the 
-`prettydoc` package for latest updates and news. Comments, bug reports and
-pull requests are always welcome.
+- Profª Bárbara
+
+- Prof. Celso Guimarães Barbosa
+
+- Prof. Diógenes
+
+- Prof. Felipe Leite Coelho da Silva
+
+- Profª Josiane da Silva Cordeiro
+
+- Prof. Luis
+
+- Profª Maria Teresa Carneiro da Cunha
+
+- Prof. Marcelo Jangarelli
+
+- Prof. Renato Nunes Pereira
+
+- Prof. Wagner de Souza Tassinari
+
+
+## GRADE CURRICULAR
+
+## LINHAS DE PESQUISA
+
+## PROJETOS
+
+## MONOGRAFIAS DEFENDIDAS
+
+
